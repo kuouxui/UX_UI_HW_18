@@ -1,13 +1,16 @@
 {
-	"folders": [
-		{
-			"path": "."
-		},
-		{
-			"path": "../Unit_17_HW_Template"
-		}
-	],
-	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "UX_UI_HW_18"
-	}
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "../Unit_17_HW_Template"
+        },
+        {
+            "path": "../UX_UI_HW_17"
+        }
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "UX_UI_HW_18"
+    }
 }
