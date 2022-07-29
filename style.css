@@ -44,6 +44,7 @@ body{
     display: grid;
     margin: 0 auto;
     grid-template-columns: 25% 500px;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 15px;
     max-width: 1200px;
     align-items: center;
@@ -104,4 +105,10 @@ hr.solid {
         display: column;
         width: 100%;
     }
+
+    .workGrid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
 }
+/* have troulbe making it work */
