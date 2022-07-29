@@ -7,7 +7,7 @@ body{
 .header{
     padding: 0 45px 0 45px;
     background-color: pink;
-    color: white;
+    color: #333;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,7 +25,14 @@ body{
 }
 
 /* Hero img  => needs work */
+.content{
+    padding: 50px;
+}
 
+#headshot{
+    border-radius: 50%;
+    float: inline-end;
+}
 
 /* My Work */
 .myWork{
@@ -38,7 +45,6 @@ body{
     margin: 0 auto;
     grid-template-columns: 25% 500px;
     gap: 15px;
-    background-color: aquamarine;
     max-width: 1200px;
     align-items: center;
     padding: 45px;
@@ -46,29 +52,56 @@ body{
 
 .project-descript{
     text-align: left;
+    padding-left: 10px;
+}
+
+.projectImg{
+    background-color: aliceblue;
+    box-shadow: 8px 8px 10px grey;
 }
 
 
 
+/* Skills - I've tried many times to make the cards align right next to each others, even this TA's help. But they won't work :( */
+.mySkills{
+    text-align: center;
+    flex-direction: row;
+}
 
-/* Skills */
-.flexContainer{
+.flexContainer{ 
     display: flex;
-    width: 33%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
     padding: 20px;
+    margin: 0 auto;
 }
 
+.card{
+    border: 1px solid red;
+    width: 400px;
+}
 
-
+#flex{
+    flex-direction: row;
+}
 
 
 /* Footer */
 
 footer{
-    display: felx;
     text-align: center;
 }
 
 hr.solid {
     border-top: 3px solid #bbb;
   }
+
+/* Mobile Media Query*/
+@media only screen and (max-width: 600){
+    .flexContainer{
+        display: column;
+        width: 100%;
+    }
+}
